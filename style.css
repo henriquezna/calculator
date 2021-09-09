@@ -1,0 +1,50 @@
+body{
+    margin: 50px;
+    background-color: #8E9DCC;
+    display: flex;
+    justify-content: center;
+    align-content: center;    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    width: 95px;
+    height: 95px;
+    background-color: #E7AD99;
+    border-radius: 40%;
+    border: none;
+    font-size: 36px;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 600px;
+    background-color: #4C1E4F;
+    box-shadow: #69423c 5px 5px;
+}
+#display{
+    width: 400px;
+    height: 100px;
+    background-color: #CE796B;
+    font-size: 92px;
+    text-align: right;
+}
+#numbers{
+    grid-column: 1;
+    grid-row: 2;
+    width: 75%;
+}
+#operators{
+    width: 25%;
+}
+#operators button{
+    background-color: #81121f;
+    color: #fff;
+}
+#equals{
+    width: 100%;
+}
+#equals button{
+    width: 100%;
+    border-radius: 10%;
+}
